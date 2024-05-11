@@ -5,23 +5,80 @@
 #container {
     width: 428px;
     margin: 20px auto;
-    border: solid 1px #333;
+    border: solid 2px #034c544f;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 #mainContent {
     display: grid;
     grid-template-columns: repeat(4, 85px);
     grid-column-gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+header {
+    grid-column: 1/-1;
+    background-image: url(/images/philip-myrtorp-oLt9TFuDnB4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 5px solid rgb(255, 149, 0);
+    
+}
+
+header h2 {
+    font-family: "Syne", sans-serif;
+    font-size: 48px;
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
 }
 
 article {
     grid-column: 1/-1;
 }
 
+h3 {
+    font-family: "Syne", sans-serif;
+    font-size: 14px;
+    color: #034c54;
+}
+
+h4 {
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+    color: #034c54;
+}
+
 p {
     text-align: justify;
+    font-family: "Syne", sans-serif;
+    font-size: 12px;
+    color: #034c54;
+    opacity: 75%;
+}
+
+.banner-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid rgb(255, 149, 0);
+}
+
+#alt-section {
+    grid-column: 1/-1;
+    background-color: #034c5421;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+#final-section {
+    grid-column: 1/-1;
+    height: 150px;
+    background-image: url(/images/banner-juice.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
 }
