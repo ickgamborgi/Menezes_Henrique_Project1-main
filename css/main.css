@@ -61,6 +61,7 @@ h3 {
     font-family: "Syne", sans-serif;
     font-size: 14px;
     line-height: 150%;
+    text-align: center;
     color: #034c54;
 }
 
@@ -69,6 +70,7 @@ h4 {
     font-size: 18px;
     line-height: 120%;
     text-decoration: underline;
+    text-align: center;
     color: #a95502;
 }
 
@@ -78,6 +80,26 @@ p {
     font-size: 12px;
     color: #034c54;
     opacity: 75%;
+}
+
+h5 {
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #034c54;
+    opacity: 75%;
+    letter-spacing: 0;
+}
+
+h5::first-letter {
+    font-family: "Syne", sans-serif;
+    font-size: 42px;
+    font-weight: 200;
+    float: left;
+    padding: 10px 10px;
+    line-height: 50%;
+    border-radius: 5px;
 }
 
 .banner-image {
